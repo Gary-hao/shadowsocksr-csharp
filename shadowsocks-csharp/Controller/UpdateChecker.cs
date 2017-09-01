@@ -13,7 +13,7 @@ namespace Shadowsocks.Controller
 {
     public class UpdateChecker
     {
-        private const string UpdateURL = "https://raw.githubusercontent.com/breakwa11/breakwa11.github.io/master/update/ssr-win-4.0.xml";
+        private const string UpdateURL = "https://raw.githubusercontent.com/shadowsocksr-backup/shadowsocks-rss/master/shadowsocksr-win.xml";
 
         public string LatestVersionNumber;
         public string LatestVersionURL;
@@ -89,7 +89,7 @@ namespace Shadowsocks.Controller
 
         public class VersionComparer : IComparer<string>
         {
-            // Calls CaseInsensitiveComparer.Compare with the parameters reversed. 
+            // Calls CaseInsensitiveComparer.Compare with the parameters reversed.
             public int Compare(string x, string y)
             {
                 return CompareVersion(ParseVersionFromURL(x), ParseVersionFromURL(y));

@@ -11,3 +11,8 @@ TestResults
 *.exe
 
 /templates
+*.json
+*.dat
+*.sqlite
+*.config
+*.ide
