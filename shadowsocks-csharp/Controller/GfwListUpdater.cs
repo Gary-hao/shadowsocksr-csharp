@@ -14,7 +14,7 @@ namespace Shadowsocks.Controller
     {
         private const string GFWLIST_URL = "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt";
 
-        private const string GFWLIST_BACKUP_URL = "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt";
+        private const string GFWLIST_BACKUP_URL = "https://bitbucket.org/gfwlist/gfwlist/raw/HEAD/gfwlist.txt";
 
         private const string GFWLIST_TEMPLATE_URL = "https://raw.githubusercontent.com/breakwa11/gfw_whitelist/master/ssr/ss_gfw.pac";
 
